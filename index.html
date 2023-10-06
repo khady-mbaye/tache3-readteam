@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tache3/ Full Responsive Multi Page Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- lien google font -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<!-- lien font awsome -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header">
+        <div class="opacity">
+            <nav>
+               
+                <a href="index.html"><img src="logot.png" alt="logo eduford univercity"></a>
+                <div class="nav-links" id="navLinks">
+                    <!-- <i class="fa fa-close"></i> -->
+                    <span style="width: 20px;height: 20px;background-color: white;" oneclick="hideMenu()"></span>
+                    <ul>
+                        <li><a href="#">HOME</a> </li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">COURSE</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+               <!-- <i class="fa fa-menu"></i> -->
+               <span style="width: 20px;height: 20px;background-color: white;"  oneclick="showMenu()"></span>
+            </nav>
+            <div class="text-box">
+                <h1>World' Beggest University</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, Lorem ipsum dolor sit amet, consectetur adipisci elit 
+                    <br> sed eiusmod tempor incidunt ut labore et</p>
+                
+                <a href="#" class="hero-btn">Visit Us To Now More</a>
+            </div>
+    
+        </div>
+    </section>
+
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                    aliqua.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                    aliqua.</p>
+            </div>
+            <div class="course-col">
+                <h3>Poste Graduation</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna 
+                    aliqua.</p>
+                   
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="campus">
+        <h1>our global camps</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="palais2.jpg" alt="">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+
+            </div>
+            <div class="campus-col">
+                <img src="palais2.jpg" alt="">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+
+            </div>
+            <div class="campus-col">
+                <img src="palais2.jpg" alt="">
+                <div class="layer">
+                    <h3>WHASHINTON</h3>
+                </div>
+
+            </div>
+    </section> -->
+    <script>
+        var navLinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+
+    </script>
+</body>
+</html>
